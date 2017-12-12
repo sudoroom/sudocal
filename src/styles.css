@@ -1,0 +1,114 @@
+
+.calendar-box {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	overflow: auto;	
+}
+
+.calendar-header {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	overflow: auto;	
+}
+
+.calendar-title {
+	margin: .5rem 0 .5rem 0;	
+}
+
+.prev-month-arrow, .next-month-arrow {
+	color: white;
+	text-decoration: none;
+	padding: .5rem;
+	margin: -.5rem 0 -.5rem 0;
+}
+
+.prev-month-arrow:hover, .prev-month-arrow:active, .prev-month-arrow:focus, 
+.next-month-arrow:hover, .next-month-arrow:active, .next-month-arrow:focus {
+	background-color: white;
+	color: #333;
+	text-decoration: none;
+}
+
+.prev-month-arrow {
+	position: relative;
+	display: block;
+	float: left;
+	font-size: 0.6em;
+	line-height: 1.1em;	
+}
+
+.next-month-arrow {
+	position: relative;
+	display: block;
+	float: right;
+	font-size: 0.6em;
+	line-height: 1.1em;	
+}
+
+.calendar-subheader {
+	position: relative;
+	display: block;
+	width: calc(100% - 2rem);
+	height: auto;
+	padding: 1rem;
+	background-color: #777;
+	color: #fff;
+	overflow: auto;
+}
+
+.current-time {
+	position: relative;
+	display: block;
+	float: right;
+	clear: right;
+}
+
+.calendar-weekdays {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid rgb(20,75,160);
+	border-bottom: 1px solid rgb(20,75,160);
+	background-color: rgb(50,125,200);
+	color: #fff;
+	overflow: auto;
+}
+
+.calendar-weekday {
+	position: relative;
+	display: block;
+	float: left;
+	height: auto;
+	width: calc(14.2857% - 11px);
+	padding: 5px;
+	text-align: center;
+	border-right: 1px solid rgb(20,75,160);	
+}
+
+.calendar-dates {
+
+}
+
+.calendar-date {
+	position: relative;
+	display: block;
+	float: left;
+	height: 100px;
+	width: calc(14.2857% - 11px);
+	padding: 5px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.prev.calendar-date {
+	background-color: #ddd;
+}
